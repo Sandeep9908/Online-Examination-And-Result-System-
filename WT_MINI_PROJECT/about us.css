@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(young-student.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  lightslategrey;
+    color: black;
+}
+
+.nav_logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.nav_links ul{
+    display: flex;
+    align-items: center;
+}
+.nav_links ul li{
+    list-style: none;
+}
+
+.nav_links ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: block;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+@media(max-width:900px){
+    .nav_links ul li a{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+h1{
+    font-size: 60px;
+}
+.about_online_exam{
+    display:contents;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.about_online_exam li{
+    width: 50%;
+    margin-top: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+}
