@@ -77,9 +77,25 @@ The diagram above illustrates the flow of users through the Online Examination a
 
   ![ADD QUESTIONS](https://i.postimg.cc/0NZqMYH0/Screenshot-2024-04-10-210809.png)
 
+## Modify or Delete Exam / Result
+![Modify exam](https://i.postimg.cc/hG05JN4D/Screenshot-2024-11-05-085834.png)
+
+![Modify exam](https://i.postimg.cc/vBHS5XDW/Screenshot-2024-11-05-090034.png)
+
+![update exam](https://i.postimg.cc/Tw7N0mWB/Screenshot-2024-11-05-090059.png)
+
+![delete exam](https://i.postimg.cc/k5CHg7mY/Screenshot-2024-11-05-092808.png)
+
+![delete exam](https://i.postimg.cc/P5YcHPB8/Screenshot-2024-11-05-092830.png)
+
+![delete result](https://i.postimg.cc/htsYvHtS/Screenshot-2024-11-05-093618.png)
+
+![delete result](https://i.postimg.cc/YCMVppkn/Screenshot-2024-11-05-093627.png)
+
 ## View Results
 - Admin can view all the results
   ![VIEW RESULTS](https://i.postimg.cc/438xkRZG/Screenshot-2024-04-10-211654.png)
+
 
 ## User Home Page
 ![USER HOME PAGE](https://i.postimg.cc/wvG8F6zt/Screenshot-2024-04-10-210920.png)
@@ -109,4 +125,5 @@ The diagram above illustrates the flow of users through the Online Examination a
 The Online Examination and Result System provides a comprehensive and user-friendly solution for managing online exams and results. With its robust features for both administrators and students, the system facilitates seamless exam creation, administration, and result tracking. The application’s intuitive interface and detailed workflows ensure an efficient and effective experience for all users. 
 
 Thank you for exploring the Online Examination and Result System. We welcome feedback and contributions to improve the system further. For any questions or support, please feel free to contact us.
+
 
