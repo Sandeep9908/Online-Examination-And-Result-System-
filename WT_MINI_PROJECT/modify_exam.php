@@ -169,7 +169,27 @@ if (isset($_POST['modify_exam'])) {
     }
 }
 
-// Handle Delete Result
+// Delete Exam functionality
+if (isset($_POST['delete_exam'])) {
+    $exam_name = mysqli_real_escape_string($conn, $_POST['exam_name']);
+
+    // Check if the exam (table) exists
+    $sql_table_check = "SHOW TABLES LIKE '$exam_name'";
+    $table_check_result = mysqli_query($conn, $sql_table_check);
+
+    if (mysqli_num_rows($table_check_result) > 0) {
+        // Table exists, proceed to delete
+        $sql_delete_table = "DROP TABLE $exam_name";
+        if (mysqli_query($conn, $sql_delete_table)) {
+            echo "<div class='success-message'>$exam_name Exam deleted successfully!</div>";
+        } else {
+            echo '<div class="error-message">Error deleting exam: ' . mysqli_error($conn) . '</div>';
+        }
+    } else {
+        echo "<div class='success-message'>$exam_name Exam not found</div>";
+    }
+}
+
 // Handle Delete Result
 if (isset($_POST['delete_result'])) {
     $user_exam_data = $_POST['USER_NAME_EXAM_NAME'];
