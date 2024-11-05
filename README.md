@@ -126,4 +126,10 @@ The Online Examination and Result System provides a comprehensive and user-frien
 
 Thank you for exploring the Online Examination and Result System. We welcome feedback and contributions to improve the system further. For any questions or support, please feel free to contact us.
 
+## Contact
+For questions or assistance:
+
+- **Name:** Chalapala Sandeep Kumar Reddy
+- **Email:** chalapalasandeepkumarreddy@gmail.com
+- **LinkedIn:** [Chalapala Sandeep Kumar Reddy](https://www.linkedin.com/in/chalapalasandeepkumarreddy9908/)
 
