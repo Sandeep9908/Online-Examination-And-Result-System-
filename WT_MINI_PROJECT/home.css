@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   width:100%;
+   background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(young-girl-is-studying-in-online-at-home-using-a-laptop-2CC2JFE.jpg);
+   background-position: center;
+   background-size: cover;   
+   height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: lightblue; */
+    color: white;
+    text-align: center;
+}
+
+.nav_logo{
+    margin: 10px;
+    margin-top: 5px; 
+}
+
+
+.nav_links ul{
+    display: flex;
+    align-items: center;
+}
+.nav_links ul li{
+    list-style: none;
+    font-size: 150%;
+    font-weight: bold;
+    /* color: white; */
+}
+
+.nav_links ul li a{
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: block;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width:900px){
+    .nav_links ul li a{
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+.nav_links ul li :hover{
+    background-color:rgb(242, 203, 132);
+}
+
+.content{
+    color: white;
+    height: auto;
+    margin: auto;
+    position: relative; 
+}
+
+.typewriter-text{
+    width: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 3%;
+    display: flex;
+    animation: typing 5s steps(100, end);
+    text-shadow: -5px 3px 5px orange; 
+}   
+
+/* Animation for typewriter effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%}
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    font-size: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 100px;
+    margin-top: 15%;
+    padding-left: 20px;
+    letter-spacing: 3px;   
+}

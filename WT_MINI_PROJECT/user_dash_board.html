@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>user_dash_board</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            .dash_bourd_box{
+                /* width:95%;*/
+                height:100%; 
+                background-color: lightslategrey;
+                padding-top: 20px;
+                position:relative;
+                margin: 0;
+                padding: 0;
+            }
+            .dash_bourd_box a{
+                padding:20px;
+                color: white;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+
+            }
+
+            .dash_bourd_box a:hover{
+                background-color: #555;
+                color: tomato;
+            }   
+            h2 {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dash_bourd_box">
+            <a href="user_area.html" target="user_area"><h2>Home</h2></a>
+            <a href="profile.php"  target="user_area"><h2>Profile</h2></a>
+            <a href="exam_selection.php" onclick="return contentlode(this)" target="user_area"><h2>Take Exam</h2></a>
+            <a href="view_result.php" target="user_area"><h2>View Result</h2></a>
+            <a href="Login page.html" target="_top"><h2>Logout</h2></a>
+        </div>
+    </body>
+</html>
